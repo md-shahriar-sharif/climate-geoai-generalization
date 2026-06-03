@@ -1,0 +1,28 @@
+name: geoai
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - geopandas
+  - rasterio
+  - rioxarray
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - notebook
+
+  - pip
+
+  - pip:
+      - earthengine-api
+      - geemap
+      - pygris
+      - cenpy
+      - xgboost
+      - shap
+      - geoshapley
+      - mgwr
+      - POT
